@@ -1,2 +1,27 @@
-*PHP tags*
+# PHP tags
+
 When PHP parses a file, it looks for opening and closing tags, which are <?php and ?> which tell PHP to start and stop interpreting the code between them. Parsing in this manner allows PHP to be embedded in all sorts of different documents, as everything outside of a pair of opening and closing tags is ignored by the PHP parser.  PHP includes a short echo tag <?= which is a short-hand to the more verbose <?php echo. 
+
+Exmaple 1. Most common
+
+```
+<?php
+
+
+?>
+```
+
+Exmaple 2. Less common - Short hand tags
+
+```
+<?
+
+
+?>
+```
+
+Exmaple 3. Short hand echo
+
+```
+<?= ?>
+```
